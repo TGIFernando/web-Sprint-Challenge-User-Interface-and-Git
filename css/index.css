@@ -86,7 +86,7 @@
     video {
         margin: 0;
         padding: 0;
-        border: 0;
+        border: 1px solid black;
         font-size: 100%;
         font: inherit;
         vertical-align: baseline;
@@ -180,6 +180,23 @@
     .top-content p {
         font-size: 1rem;
         margin: .5rem 0;
+    }
+    
+    .container .about-page {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .container .about-page .img12 {
+        margin: .5rem;
+    }
+    
+    .container .about-page p,
+    h2,
+    h3 {
+        display: flex;
+        width: 100%;
     }
     /**/
     
