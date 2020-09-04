@@ -86,7 +86,7 @@
     video {
         margin: 0;
         padding: 0;
-        border: 1px solid black;
+        border: 0;
         font-size: 100%;
         font: inherit;
         vertical-align: baseline;
@@ -197,6 +197,14 @@
     h3 {
         display: flex;
         width: 100%;
+        margin: 5px;
+    }
+    
+    .container .about-page h3 {
+        width: 7rem;
+        border: 2px solid black;
+        border-radius: 8px;
+        text-align: center;
     }
     /**/
     
